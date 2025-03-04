@@ -8,9 +8,10 @@ import jakarta.validation.constraints.PositiveOrZero;
 @Table("cashcard")
 public record CashCard(
 		@Id
-		Long id,
+		Integer id,
 		@PositiveOrZero
-		Double amount
+		Double amount,
+		String owner
 		) {
 
 }

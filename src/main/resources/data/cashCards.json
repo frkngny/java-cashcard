@@ -2,11 +2,18 @@
 	"cashCards": [
 		{
 			"id": null,
-			"amount": 25.5
+			"amount": 123.45,
+			"owner": "fg"
 		},
 		{
 			"id": null,
-			"amount": 40.8
+			"amount": 1.00,
+			"owner": "fg"
+		},
+		{
+			"id": null,
+			"amount": 150.00,
+			"owner": "fg"
 		}
 	]
 }
